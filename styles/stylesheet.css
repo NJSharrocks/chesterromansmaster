@@ -574,6 +574,11 @@ table .col{
     grid-row-gap: 0px;
   }
 
+  .parent3 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 0px;
+  }
+
   .child {
     text-align: center;
   }
