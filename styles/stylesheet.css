@@ -155,6 +155,11 @@ h4 {
   font-family: 'Dosis', cursive;
 }
 
+.recruiting {
+  font-family: 'Dosis', cursive;
+  padding: 2px;
+}
+
 .logo {
   max-width: 100px;
   float: right;
@@ -325,6 +330,22 @@ p {
   grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
   grid-column-gap: 15px;
   grid-row-gap: 10px;
+}
+
+.parent3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+}
+
+.red {
+  color: #f00c00;
+}
+
+.parent3 p {
+  color: #f00c00;
 }
 
 .child {
